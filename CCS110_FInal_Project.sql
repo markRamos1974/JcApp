@@ -60,10 +60,10 @@ INSERT INTO employee (first_name, last_name, birth_date, position, salary, date_
 
 
 INSERT INTO department(dept_name, dept_supervisor, date_establised) VALUES 
-	("Accounting", 64, "1990-06-09"),
-    ("Research", 65, "1993-06-13"),
-    ("Sales", 66, "1993-06-13"),
-    ("Operations", 67, "1995-06-04");
+	("Accounting", 1, "1990-06-09"),
+    ("Research", 2, "1993-06-13"),
+    ("Sales", 3, "1993-06-13"),
+    ("Operations", 4, "1995-06-04");
     
     
 INSERT INTO project (proj_name, start_date, end_date) VALUES 
@@ -72,12 +72,12 @@ INSERT INTO project (proj_name, start_date, end_date) VALUES
     ("Innovating new Product", "1990-06-09", "1996-03-05");
 
 INSERT INTO task VALUES 
-	(1, 10, "1996-03-05", "Market reaserach"),
-    (2, 10, "1996-03-05", "Building Identity"),
-    (3, 11, "1996-03-05", "Machine Learning studies"),
-	(4, 11, "1996-03-05", "Integrating AI to web"),
-	(5, 12, "1996-03-05", "Record Analysis"),
-    (6, 12, "1996-03-05", "Data visualization");
+	(1, 1, "1996-03-05", "Market reaserach"),
+    (2, 1, "1996-03-05", "Building Identity"),
+    (3, 2, "1996-03-05", "Machine Learning studies"),
+	(4, 2, "1996-03-05", "Integrating AI to web"),
+	(5, 3, "1996-03-05", "Record Analysis"),
+    (6, 3, "1996-03-05", "Data visualization");
 
 SELECT * FROM employee;
 
