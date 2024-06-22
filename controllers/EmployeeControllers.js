@@ -12,6 +12,8 @@ const addEmployee = async (req, res) => {
     const dateHired = req.body.dateHired
 
     const query = `INSERT INTO CCS110FINALPROJECT.employee (first_name, last_name, birth_date, position, salary, date_hired) VALUES("${firstname}", "${lastname}", "${birthdate}", "${position}", ${salary}, "${dateHired}");`
+    console.log(query)
+   
     db_mysql_con.query(query, (err, result) => {
         
         if(err) console.log(err)

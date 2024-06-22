@@ -33,7 +33,7 @@ addButton.addEventListener("click", () => {
 
     console.log(payload)
 
-    fetch("/manage/projects/add", {
+    fetch("/manage/employee/add", {
         method: "POST",
         body: JSON.stringify(payload),
         headers: { 
